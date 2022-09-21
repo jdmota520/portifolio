@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Satisfy&display=swap');
+body{
+    background: linear-gradient(269.85deg, #041832 27.26%, #3468A7 96.03%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.fundo{
+    background: #ECF4FF;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    color: #1c1c1c;
+    padding: 64px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.fotoPerfil{
+    border-radius: 400px;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textoCabecalho{
+    margin-left: 16px;
+}
+
+.textoCabecalho h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.textoCabecalho h3{
+    font: 400;
+    font-size: 24px;
+}
+
+.redesSociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.linkRedes{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 16px; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    padding: 12px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.linkRedes a, 
+.menu a,
+.redesSociais li{
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    color: #1c1c1c;
+}
+.imgGit,
+.imgIns{
+    display: none;
+}
+
+.github:hover{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    background: #000000;
+    transition: 0.4s ease-in-out;    
+}
+
+.github:hover .imgGit{
+    display: flex;
+}
+
+.github:hover a,
+.linkedin:hover a,
+.instagram:hover a,
+.whatsapp:hover a,
+.email:hover a{
+    color: #ffffff;
+}
+
+.linkedin:hover {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    background: #80c0df;
+    transition: 0.4s ease-in-out;
+}
+
+.linkedin:hover a{
+    color: #FFFFFF;
+}
+
+.instagram:hover{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    background: linear-gradient(218.65deg, #0043e4 15.49%, #e920ad 71.19%);
+    transition: 0.4s ease-in-out;
+}
+
+.email:hover{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    background: #499CFE;
+    transition: 0.4s ease-in-out;
+}
+
+.tema button{
+    align-self: flex-end;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 8px 16px;
+    background: #ECF4FF;
+    border-radius: 100px;
+    white-space: nowrap;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+    padding: 32px;
+}
+
+.tituloProjeto,
+.pContato{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    list-style: none;
+
+}
+
+.linkProjeto{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.dark {
+    background: linear-gradient(269.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .fundo {
+    background: #333439;
+    color: #f6f6f6;
+}
+
+.dark .projetos{
+    color: #1c1c1c;
+}
+
+.dark .tema button{
+    background: #1c1c1c;
+    color: #f6f6f6;
+    border: 2px solid #f7f7f7;
+}
+
+.dark .tema a,
+.dark .linkRedes a {
+    color: #f6f6f6;
+}
