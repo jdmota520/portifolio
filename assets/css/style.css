@@ -87,6 +87,17 @@ body{
     margin-left: 18%;
 }
 
+@media screen and (max-width: 400px)
+{
+    .cabecalho{
+        padding-left: 10%;
+    }
+
+    .linkRedes{
+        margin: 3px;
+    }
+}
+
 @media screen and (min-width: 768px){
     .cabecalho{
         justify-content: space-evenly;
